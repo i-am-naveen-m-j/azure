@@ -15,3 +15,10 @@ sudo git clone -b azure-vmss-autoscaling https://github.com/mavrick202/ansiblete
 #cloud-config
 runcmd:
   - ansible-playbook /myrepo/playbook.yaml
+#####
+#cloud-config
+runcmd:
+  - ansible-playbook /myrepo/ansibletemplatetesting/playbook.yaml
+  ##
+  also chnage C:\Users\vijay\Desktop\Devops_GitHUb\Devops_Naveen\Azure\Packer\ansibletemplatetesting\ansible file path locations
+  
